@@ -16,6 +16,12 @@
   /* выше установили ограничения для секции */
 }
 
+.header__logo_yandex-image {
+  background: url("../images/logo_place_header.svg");
+  background-repeat: no-repeat;
+  margin: 30px 0 0 64px;
+}
+
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
