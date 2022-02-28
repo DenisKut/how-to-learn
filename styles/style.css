@@ -36,7 +36,7 @@
   left: 64px;
 }
 
-.title {
+.header__title {
   margin-left: 64px;
   width: 730px;
   font-size: 102px;
@@ -45,11 +45,14 @@
   z-index: 2;
 }
 
-.subtitle {
+.header__subtitle {
   position: absolute;
   bottom: 30px;
   left: 64px;
   z-index: 2;
+  width: 388px;
+  line-height: 25px;
+  font-style: normal;
 }
 
 .link {
@@ -57,7 +60,7 @@
   text-decoration: none;
 }
 
-.main-illustration {
+.header__main-illustration {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -78,6 +81,55 @@
   top: 64;
   background-color: #2f80ed;
   z-index: 0;
+}
+
+.lame_large {
+  height: 100px;
+}
+
+.description__two-columns {
+  width: 80%;
+  min-height: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: space-between;
+  margin: 100px auto;
+  position: relative;
+}
+
+.two-columns__brief {
+  width: 175px;
+  margin-top: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.two-columns__main-text_paragraph {
+  margin: 0;
+  line-height: 34зч;
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.two-columns__main-text_paragraph_center {
+  margin: 30px 0;
+}
+
+.two_columns__main-text_span-accept {
+  font-weight: bold;
 }
 
 /* и элемента с модификатором вида ключ-значение */
