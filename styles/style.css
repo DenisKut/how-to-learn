@@ -114,7 +114,7 @@
 
 .two-columns__main-text_paragraph {
   margin: 0;
-  line-height: 34зч;
+  line-height: 34px;
   font-size: 24px;
   text-decoration: none;
   font-weight: normal;
@@ -275,7 +275,7 @@
   z-index: 1;
   position: absolute;
   top: 0;
-  right: -210px; 
+  right: -210px;
   height: 877px;
   width: 877px;
   background: url("../images/kaufman-triangle.svg");
