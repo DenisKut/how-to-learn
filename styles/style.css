@@ -9,6 +9,11 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+h1, h2, h3, p, ul, li {
+  padding: 0;
+  margin: 0;
+}
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -87,6 +92,8 @@
 
 .two-columns {
   width: 80%;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
   min-height: fit-content;
   display: flex;
   flex-direction: row;
@@ -126,7 +133,7 @@
   margin: 30px 0;
 }
 
-.two_columns__span-accent {
+.two-columns__span-accent {
   font-weight: bold;
 }
 
@@ -339,12 +346,12 @@
 
 .footer__column-links {
   position: relative;
+  margin: 20px 0 16px;
 }
 /* и элемента с модификатором вида ключ-значение */
 
 .footer__list-of-links {
   list-style-type: none;
-  margin: 20px 0 16px;
   padding-left: 0;
 }
 
